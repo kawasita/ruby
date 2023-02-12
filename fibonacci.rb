@@ -51,3 +51,25 @@ end
 for n in 1..30
   p fib(n)
 end
+
+
+# F = []
+# def fib(n)
+#   if n == 0 || n == 1
+#     return 1
+#   elsif F[n] != nil 
+#     return F[n]
+#   else
+#     F[n] = fib(n - 2) + fib(n - 1)
+#   end
+# end
+
+# p "フィボナッチ数列の何項目が知りたいん？うちが教えたるで"
+
+# num = gets.to_i
+
+# if num >= 1
+#   p fib(num-1)
+# else
+#   p "ちゃんと入力しやん人はいややぁ"
+# end
